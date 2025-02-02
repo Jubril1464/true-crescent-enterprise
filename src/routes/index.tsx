@@ -1,4 +1,4 @@
-import {AuthLayout} from "@components/layouts/AuthLayout";
+import { AuthLayout } from "@components/layouts/AuthLayout";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { authRoutes } from "./auth";
 import OurServices from "@pages/our-services";
@@ -29,9 +29,13 @@ export const appRoutes = [
     element: <OurCompany />,
   },
   {
-    path:'/auth',
+    path: "*",
+    element: <Navigate to="/" />,
+  },
+  {
+    path: "/auth",
     element: <AuthLayout />,
-    children: authRoutes
-  }
+    children: authRoutes,
+  },
 ];
 export const router = createBrowserRouter(appRoutes);
