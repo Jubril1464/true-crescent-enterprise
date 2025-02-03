@@ -6,6 +6,8 @@ import Home from "@pages/home";
 import OurCompany from "@pages/our-company";
 import Contact from "@pages/contact";
 import MildSteel from "@src/pages/mild-steel";
+import StainlessSteel from "@src/pages/stainless-steel";
+import GalvanizedSteel from "@src/pages/galvanized-steels";
 
 export const appRoutes = [
   {
@@ -23,6 +25,14 @@ export const appRoutes = [
   {
     path: "/products/mild-steel",
     element: <MildSteel />,
+  },
+  {
+    path: "/products/stainless-steel",
+    element: <StainlessSteel />,
+  },
+  {
+    path: "/products/galvanized-steel",
+    element: <GalvanizedSteel />,
   },
   {
     path: "/our-company",

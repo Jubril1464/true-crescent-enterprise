@@ -21,7 +21,9 @@ export const Header = () => {
         </div>
       </div>
       <nav className="flex justify-between py-4 px-5 items-center relative">
-        <h2 className="font-semibold text-2xl">SalyekSteel</h2>
+        <Link to="/" className="font-semibold text-2xl">
+          SalyekSteel
+        </Link>
         <ul
           className={`flex gap-5 duration-100 transform min-[850px]:translate-y-0 -translate-y-96 ${
             checked ? "translate-y-0" : "-translate-y-96"
@@ -59,7 +61,7 @@ export const Header = () => {
                 </li>
                 <li>
                   <Link
-                    to="/products/galvanised-steel"
+                    to="/products/galvanized-steel"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
                     Galvanised Steel
