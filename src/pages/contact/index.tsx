@@ -26,7 +26,7 @@ const Contact = () => {
     });
   return (
     <Layout>
-      <div className="grid md:grid-cols-2 grid-cols-1 px-5 mt-10 gap-10">
+      <div className="grid md:grid-cols-2 grid-cols-1 px-5 my-20 gap-10">
         <div className="space-y-5 ">
           <div>
             <h2 className="sm:text-[30px] text-2xl font-semibold">

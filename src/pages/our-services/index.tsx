@@ -12,7 +12,7 @@ const OurServices = () => {
           consequatur
         </p>
       </div>
-      <article className="space-y-3 px-5 mt-10">
+      <article className="space-y-3 px-5 my-20">
         <p>
           Salyek Steel Ltd offers a comprehensive and competitive top quality
           iron steel integrations(Mild Steel, Stainless and Galvanized),

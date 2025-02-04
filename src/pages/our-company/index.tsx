@@ -12,7 +12,7 @@ const OurCompany = () => {
           consequatur
         </p>
       </div>
-      <article className="space-y-3 px-5 mt-10">
+      <article className="space-y-3 px-5 my-20">
         <p>
           This company was founded in 1989 and is now registered as Salyek Steel
           Limited, as a General Merchant and Supplier of Iron Steel Integrations

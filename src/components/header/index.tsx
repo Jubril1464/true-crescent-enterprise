@@ -93,7 +93,7 @@ export const Header = () => {
             <NavLink to="/our-services">Our Services</NavLink>
           </li>
           <li>
-            <NavLink to="/markets">Markets</NavLink>
+            <NavLink to="/market-supplied">Markets</NavLink>
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>

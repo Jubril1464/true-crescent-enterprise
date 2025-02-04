@@ -8,6 +8,9 @@ import Contact from "@pages/contact";
 import MildSteel from "@src/pages/mild-steel";
 import StainlessSteel from "@src/pages/stainless-steel";
 import GalvanizedSteel from "@src/pages/galvanized-steels";
+import FabricationAndInstallion from "@src/pages/fabrication-and-installation";
+import MeshWireSteel from "@src/pages/mesh-wire-steel";
+import MarketSupplied from "@src/pages/market-supplied";
 
 export const appRoutes = [
   {
@@ -34,6 +37,19 @@ export const appRoutes = [
     path: "/products/galvanized-steel",
     element: <GalvanizedSteel />,
   },
+  {
+    path: "/products/fabrication-and-installation",
+    element: <FabricationAndInstallion/>,
+  },
+  {
+    path: "/products/mesh-wire",
+    element: <MeshWireSteel />,
+  },
+  {
+    path: "/market-supplied",
+    element: <MarketSupplied />,
+  },
+
   {
     path: "/our-company",
     element: <OurCompany />,

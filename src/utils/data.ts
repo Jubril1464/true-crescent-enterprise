@@ -36,6 +36,15 @@ import GalvanizedAngleBar from "@assets/images/galvanized-steel/galvanized-angle
 import GalvanizedFlatBar from "@assets/images/galvanized-steel/galvanized-flat-bar.jpg";
 import GalvanizedPipe from "@assets/images/galvanized-steel/galvanized-pipe.jpg";
 import GalvanizedPlate from "@assets/images/galvanized-steel/galvanized-plate.jpg";
+import AmenitiesGuard from "@assets/images/fabrication/amenities-guards.jpg";
+import ArrowProps from "@assets/images/fabrication/arrow-props.jpg";
+import BasePlateBolt from "@assets/images/fabrication/base-plate-bolt.jpg";
+import HandRailAccessories from "@assets/images/fabrication/handrail-accessories.jpeg";
+import MetalDoor from "@assets/images/fabrication/metal-door.jpg";
+import MobileScalffolding from "@assets/images/fabrication/metal door.jpg";
+import ScalffoldingTubes from "@assets/images/fabrication/scaffolding-tubes.jpg";
+import ThreadedRods from "@assets/images/fabrication/threaded-rods.jpg";
+
 export const mildsteels: CardSteelsProps[] = [
   {
     name: "Beams",
@@ -272,5 +281,53 @@ export const galvanizedSteelProducts = [
     name: "Galvanized Plate",
     image: GalvanizedPlate,
     id: 4,
+  },
+];
+
+export const fabricationProductServices: CardSteelsProps[] = [
+  {
+    name: "Security Fencing and Guards",
+    image: SecurityFencing,
+    id: 1,
+  },
+  {
+    name: "Scaffolding Couplers",
+    image: ScaffoldingCouplers,
+    id: 2,
+  },
+  {
+    name: "Water and Sewage Plant",
+    image: WaterSewage,
+    id: 3,
+  },
+  {
+    name: "Street Light Poles",
+    image: StreetLightPole,
+    id: 4,
+  },
+  {
+    name: "Amenities Guards",
+    image: AmenitiesGuard,
+    id: 5,
+  },
+  {
+    name: "Arrow Props",
+    image: ArrowProps,
+    id: 6,
+  },
+  {
+    name: "Base Plate Bolt",
+    image: BasePlateBolt,
+    id: 7,
+  },
+  {
+    name: "Handrail Accessories",
+    image: HandRailAccessories,
+    id: 8,
+  },
+  {
+    name: "Metal door",
+    image: MetalDoor,
+    id: 9,
   },
 ];
