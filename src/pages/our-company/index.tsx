@@ -13,69 +13,41 @@ const OurCompany = () => {
         </p>
       </div>
       <article className="space-y-3 px-5 my-20">
+        <p>The primary objectives of the company are :</p>
         <p>
-          This company was founded in 1989 and is now registered as Salyek Steel
-          Limited, as a General Merchant and Supplier of Iron Steel Integrations
-          (Mild Steel, Stainless Steel and Galvanized), Engineering and
-          Mechanical Tools, Fabrication and Steel financing. We provide a
-          convenience and guaranteed materials and tools shopping online with
-          various payment options and transformed the mode of ordering at
-          delivery location given at anywhere in Nigeria.
+          To generate revenue and maximize profits by selling building materials
+          to construction companies, contractors, and individuals.
         </p>
         <p>
-          Based on the original site, Our Head office and workshop are in prime
-          location on the Mainland route servicing Badagry express road, Lagos
-          State, Nigeria.
+          <strong>Customer Satisfaction:</strong> To provide high-quality
+          building materials and excellent customer service, ensuring customer
+          satisfaction and loyalty.
         </p>
         <p>
-          All Branch office and workshop are well stock of iron Steel product
-          Integration such as Plate, UPN (U-Channels), IPE (H-Beams), Angle and
-          bars, Square-Hollow pipe, Z-purlin, grating and wires just to mention
-          few.
+          <strong>Market Leadership:</strong> To become a leading supplier of
+          building materials in Nigeria, known for reliability, quality, and
+          competitive pricing.
         </p>
         <p>
-          Our Workshop are well equipped that will facilitate a quality design
-          and standard services to our long-standing and Prospective customer
-          while we call Them Partner with our competitive prices and discount
-          price quoting. We fabricate and install such as Street-Light,
-          Scaffolding, Handrail, Structural Tank, Fencing and Security Guards,
-          Steel work, Vessels, Walk way, Bridges, Wall Cladding etc.
+          <strong>Job Creation:</strong> To create employment opportunities for
+          Nigerians, contributing to the country's economic growth and
+          development.
         </p>
         <p>
-          The success of the business is it, its highly flexible services and
-          goods with no demarcation between Steel trades. A number of the staff
-          had being employed with the company for many years and all trades are
-          supported and executed by a highly qualified and professional
-          management team.
+          <strong>Supporting Infrastructure Development:</strong> To contribute
+          to Nigeria's infrastructure development by providing essential
+          building materials for construction projects.
         </p>
         <p>
-          In over the years, Salyek Steel has being attaining recognition and
-          certify subsidiary agent from top iron steel corporate all over the
-          world.
+          <strong>Innovation and Quality Improvement:</strong> To continuously
+          improve product quality, explore new market opportunities, and adopt
+          innovative technologies to stay competitive.
         </p>
-        <h3 className="text-xl font-medium">Misson Statement</h3>
-        <p>
-          A Quality management system at competitive cost reduction in
-          distribution of standard Iron Steel Integration, Fabrication Tools and
-          Product services to the General sectors, State development facility
-          and The Household.
-        </p>
-        <h3 className="text-xl font-medium">Contact us</h3>
-        <p>
-          At Salyek Steel it does not matter if you need non-standard sizes or
-          you have an unusual request. With our expertise and range of stock, we
-          can meet all your ferrous and non-ferrous requirements.
-        </p>
-        <p>
-          Our friendly and experienced team can help you to decide which
-          products will work best for you, and whether you are a commercial
-          customer looking for large quantities of stock or a domestic customer
-          with a much smaller requirement. We are here to help. So let us know
-          about your requirements.
-        </p>
+
+       
       </article>
     </Layout>
   );
 };
 
-export default OurCompany
+export default OurCompany;

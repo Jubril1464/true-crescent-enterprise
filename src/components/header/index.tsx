@@ -21,8 +21,8 @@ export const Header = () => {
         </div>
       </div>
       <nav className="flex justify-between py-4 px-5 items-center relative">
-        <Link to="/" className="font-semibold text-2xl">
-          SalyekSteel
+        <Link to="/" className="font-semibold min-[400px]:text-2xl text-xl">
+          True crescent 
         </Link>
         <ul
           className={`flex gap-5 duration-100 transform min-[850px]:translate-y-0 -translate-y-96 ${
@@ -64,7 +64,7 @@ export const Header = () => {
                     to="/products/galvanized-steel"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                    Galvanised Steel
+                    Galvanised Material
                   </Link>
                 </li>
                 <li>
@@ -72,7 +72,7 @@ export const Header = () => {
                     to="/products/fabrication-and-installation"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                    Fabriaction and Installation
+                    Welding and consumables
                   </Link>
                 </li>
                 <li>
@@ -81,6 +81,22 @@ export const Header = () => {
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
                     Mesh Wire
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/products/fittings-and-accessories"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Fitting and accessories
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/products/form-works"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Formwork Materials
                   </Link>
                 </li>
               </ul>

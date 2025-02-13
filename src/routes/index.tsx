@@ -11,6 +11,8 @@ import GalvanizedSteel from "@src/pages/galvanized-steels";
 import FabricationAndInstallion from "@src/pages/fabrication-and-installation";
 import MeshWireSteel from "@src/pages/mesh-wire-steel";
 import MarketSupplied from "@src/pages/market-supplied";
+import FittingsAndAccessories from "@src/pages/fittings-and-accessories";
+import FormWork from "@src/pages/form-work";
 
 export const appRoutes = [
   {
@@ -44,6 +46,14 @@ export const appRoutes = [
   {
     path: "/products/mesh-wire",
     element: <MeshWireSteel />,
+  },
+  {
+    path: "/products/fittings-and-accessories",
+    element: <FittingsAndAccessories />,
+  },
+  {
+    path: "/products/form-works",
+    element: <FormWork />,
   },
   {
     path: "/market-supplied",

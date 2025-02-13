@@ -3,17 +3,17 @@ import Button from "@src/components/button";
 import { Card } from "@src/components/card";
 import { Layout } from "@src/components/page-layout";
 import { CardSteelsProps } from "@src/model/interface";
-import { fabricationProductServices } from "@src/utils/data";
+import { formWorkProductServices } from "@src/utils/data";
 
-const ITEMS_PER_PAGE = 8; 
+const ITEMS_PER_PAGE = 8;
 
-const FabricationAndInstallion = () => {
+const FormWork = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const totalPages = Math.ceil(fabricationProductServices.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(formWorkProductServices.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
-  const currentProducts = fabricationProductServices.slice(startIndex, endIndex);
+  const currentProducts = formWorkProductServices.slice(startIndex, endIndex);
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
@@ -22,7 +22,7 @@ const FabricationAndInstallion = () => {
     <Layout>
       <div className="products h-[30rem] flex flex-col items-center justify-center services text-center text-white">
         <h1 className="font-semibold min-[850px]:text-[4rem] sm:text-[3rem] text-3xl min-[850px]:w-[50rem] sm:leading-[70px]">
-          Welding and Consumables
+          Form Works
         </h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
@@ -77,4 +77,4 @@ const FabricationAndInstallion = () => {
   );
 };
 
-export default FabricationAndInstallion;
+export default FormWork;

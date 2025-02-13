@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <footer className="sm:px-10 px-5 py-10 flex justify-between flex-wrap bg-black text-white gap-5">
-      <div className="space-y-5 sm:w-1/3">
+      <div className="space-y-5 sm:w-1/3 w-full">
         <h3 className="font-semibold">Locate us</h3>
         <div className="flex gap-1 items-center">
           <p>
@@ -21,12 +21,12 @@ const Footer = () => {
         <h3 className="font-semibold">Contact us</h3>
         <div className="flex gap-1 items-center">
           <CiMail className="shrink-0" />
-          <p>contact@salyeksteel.com</p>
+          <p>contact@truecrescent.com</p>
         </div>
         <div>
-          <p>+23481356782</p>
-          <p>+23481356782</p>
-          <p>+23481356782</p>
+          <p>+2348160804480</p>
+          <p>+2348168347319</p>
+          <p>+2348021491086</p>
         </div>
       </div>
       <div className="space-y-5">

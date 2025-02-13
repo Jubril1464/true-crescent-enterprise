@@ -40,8 +40,8 @@ const MarketSupplied = () => {
           both finished and semi-finished products including bespoke forgings,
           heat-treated and machined items, specifically for the marine and
           aerospace industry. With plenty of technical support available to all
-          of our customers, Salyek Steel are able to offer a front-to-back
-          service you can count on
+          of our customers, True crescent enterprise limited are able to offer a
+          front-to-back service you can count on
         </p>
         <h3 className="text-xl font-medium">Engineering</h3>
 
@@ -63,9 +63,9 @@ const MarketSupplied = () => {
           hundreds of customers ranging from niche engineering specialists with
           a handful of staff to large multinational corporations who employ many
           thousands of people. Regardless of the size of your business, with
-          Salyek Steel you'll receive the same level of service, the same level
-          of engineering expertise from our staff and the same high-quality
-          product.
+          True crescent enterprise limited you'll receive the same level of
+          service, the same level of engineering expertise from our staff and
+          the same high-quality product.
         </p>
         <h3 className="text-xl font-medium">Automotive & Motorsport</h3>
 

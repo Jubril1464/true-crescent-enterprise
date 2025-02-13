@@ -14,11 +14,11 @@ const OurServices = () => {
       </div>
       <article className="space-y-3 px-5 my-20">
         <p>
-          Salyek Steel Ltd offers a comprehensive and competitive top quality
-          iron steel integrations(Mild Steel, Stainless and Galvanized),
-          Engineering and Mechanical tools, Steel Financing, Fabrications and
-          Installation to the General Sectors down to the Household within
-          Africa continent specifically Nigeria.
+          True crescent enterprise limited Ltd offers a comprehensive and
+          competitive top quality iron steel integrations(Mild Steel, Stainless
+          and Galvanized), Engineering and Mechanical tools, Steel Financing,
+          Fabrications and Installation to the General Sectors down to the
+          Household within Africa continent specifically Nigeria.
         </p>
         <p>Aspects of the services we offer include:</p>
         <ul className="list-disc list-inside space-y-3">
@@ -35,9 +35,10 @@ const OurServices = () => {
           <li>
             General labour mobilization: Whether you need one reliable,
             affordable temporary labour on welding, Steel burners and Operator.
-            Salyek Steel provide skilled personnel for technical or supervision
-            services on project, contract and maintenance. Whatever your
-            situation, if you need one worker for one day or more indefinitely.
+            True crescent enterprise limited provide skilled personnel for
+            technical or supervision services on project, contract and
+            maintenance. Whatever your situation, if you need one worker for one
+            day or more indefinitely.
           </li>
           <li>
             Fabrication and Installation: Tanks, Security panel, Guards, Fencing
