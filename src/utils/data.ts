@@ -9,10 +9,8 @@ import StainlessRoundRod from "@assets/images/stainless-round-rod.jpg";
 import WaterSewage from "@assets/images/water-sewage.jpg";
 import StreetLightPole from "@assets/images/street-light-pole.jpg";
 import { CardSteelsProps } from "@src/model/interface";
-import CarbonPipe from "@assets/images/mild-steel/carbon-pipe.jpg";
 import Channels from "@assets/images/mild-steel/channels.jpg";
 import FlatBar from "@assets/images/mild-steel/flat-bar.jpg";
-import IronRod from "@assets/images/mild-steel/iron-rod.jpg";
 import SquarePipe from "@assets/images/mild-steel/square-pipe.jpeg";
 import UniversalColumns from "@assets/images/mild-steel/universal-columns.jpg";
 
@@ -51,15 +49,27 @@ import FittingsAndAccessoriesEight from '@assets/images/seamless-pipe-and-access
 import FormWorkOne from '@assets/images/form-work/wood-3.jpg'
 import FormWorkTwo from '@assets/images/form-work/wood-4.jpg'
 import FormWorkThree from '@assets/images/form-work/yellow-beam-1.jpg'
+
+import HcolumOne from '@assets/images/mild-steel-new/h-column/h-column-1.jpg'
+import HcolumTwo from '@assets/images/mild-steel-new/h-column/h-column-2.jpg'
+import HcolumThree from '@assets/images/mild-steel-new/h-column/h-column-3.jpg'
+import HcolumFour from '@assets/images/mild-steel-new/h-column/h-column-4.jpg'
+import HcolumFive from '@assets/images/mild-steel-new/h-column/h-column-5.jpg'
+import HcolumSix from '@assets/images/mild-steel-new/h-column/h-column-6.jpg'
+import HcolumSeven from '@assets/images/mild-steel-new/h-column/h-column-7.jpg'
+import HcolumEight from '@assets/images/mild-steel-new/h-column/h-column-8.jpg'
+
+import IronRodOne from '@assets/images/mild-steel-new/iron-rod-2.jpg'
+import IronRodTwo from '@assets/images/mild-steel-new/iron-rod-1.jpg'
 export const mildsteels: CardSteelsProps[] = [
   {
     name: "Beams",
-    image: Beams,
+    image: HcolumOne,
     id: 1,
   },
   {
-    name: "Unequal Angle Iron",
-    image: AngleIron,
+    name: "Iron Rod",
+    image: IronRodTwo,
     id: 2,
   },
   {
@@ -68,20 +78,20 @@ export const mildsteels: CardSteelsProps[] = [
     id: 3,
   },
   {
-    name: "Reinforcement Iron Rod",
-    image: Reinforcement,
+    name: "Iron Rod",
+    image: IronRodOne,
     id: 4,
   },
 ];
 export const stainlesssteels: CardSteelsProps[] = [
   {
     name: "Stainless Pipe",
-    image: StainlessPipe,
+    image: StainlessSteelTwo,
     id: 1,
   },
   {
-    name: "Stainless Checker plate",
-    image: StainlessPlate,
+    name: "Stainless Pipe",
+    image: StainlessSteelThree,
     id: 2,
   },
   {
@@ -90,8 +100,8 @@ export const stainlesssteels: CardSteelsProps[] = [
     id: 3,
   },
   {
-    name: "Stainless Round Rod",
-    image: StainlessRoundRod,
+    name: "Stainless Pipe",
+    image: StainlessSteelFour,
     id: 4,
   },
 ];
@@ -138,8 +148,8 @@ export const metalmesh: CardSteelsProps[] = [
 
 export const mildsteelsProduct = [
   {
-    name: "Beams",
-    image: Beams,
+    name: "H Beams",
+    image: HcolumOne,
     id: 1,
   },
   
@@ -153,10 +163,15 @@ export const mildsteelsProduct = [
     image: Reinforcement,
     id: 4,
   },
+  {
+    name: "H Beams",
+    image: HcolumFour,
+    id: 5,
+  },
   
   {
-    name: "Carbon Pipe",
-    image: CarbonPipe,
+    name: "H Beams",
+    image: HcolumTwo,
     id: 6,
   },
   {
@@ -166,15 +181,36 @@ export const mildsteelsProduct = [
   },
  
   {
+    name: "H Beams",
+    image: HcolumFive,
+    id: 8,
+  },
+  {
+    name: "H Beams",
+    image: HcolumSix,
+    id: 9,
+  },
+ 
+  {
     name: "Flat Bar",
     image: FlatBar,
     id: 10,
   },
+  {
+    name: "H Beams",
+    image: HcolumSeven,
+    id: 11,
+  },
   
   {
-    name: "Iron Rod",
-    image: IronRod,
+    name: "H Beams",
+    image: HcolumThree,
     id: 12,
+  },
+  {
+    name: "H Beams",
+    image: HcolumEight,
+    id: 13,
   },
   
   {

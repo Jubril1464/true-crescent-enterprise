@@ -3,6 +3,7 @@ import { LuPhone } from "react-icons/lu";
 import { Link, NavLink } from "react-router-dom";
 import { LuChevronDown } from "react-icons/lu";
 import { CiSearch, CiShoppingCart, CiUser } from "react-icons/ci";
+import Logo from '@assets/images/true-cresent-logo.png'
 import { FiUser } from "react-icons/fi";
 export const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -22,7 +23,7 @@ export const Header = () => {
       </div>
       <nav className="flex justify-between py-4 px-5 items-center relative">
         <Link to="/" className="font-semibold min-[400px]:text-2xl text-xl">
-          True crescent 
+          <img src={Logo} alt="True crescent logo" className="h-8 w-[130px]" />
         </Link>
         <ul
           className={`flex gap-5 duration-100 transform min-[850px]:translate-y-0 -translate-y-96 ${
