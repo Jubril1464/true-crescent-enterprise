@@ -7,15 +7,18 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa6";
+import Logo from "@assets/images/true-cresent-logo.png";
+
 const Footer = () => {
   return (
     <footer className="sm:px-10 px-5 py-10 flex justify-between flex-wrap bg-black text-white gap-5">
       <div className="space-y-5 sm:w-1/3 w-full">
-        <h3 className="font-semibold">Locate us</h3>
+        <img src={Logo} alt="True crescent logo" className="w-[200px]" />
         <div className="flex gap-1 items-center">
           <p>
-            Plot/No. 4, Orowumi Street, Lagos Mailand Servicing, Badagry Express
-            Way, Doyin/Orile Bus-Stop, Lagos
+            True Crescent Enterprise Limited - Your trusted partner for steel
+            sales, fabrication, and installation services. Quality steel
+            products and expert solutions for your construction needs.
           </p>
         </div>
         <h3 className="font-semibold">Contact us</h3>
@@ -24,8 +27,6 @@ const Footer = () => {
           <p>contact@truecrescent.com</p>
         </div>
         <div>
-          <p>+2348160804480</p>
-          <p>+2348168347319</p>
           <p>+2348021491086</p>
         </div>
       </div>
@@ -43,6 +44,38 @@ const Footer = () => {
           </li>
           <li>
             <Link to="/contact-us">Contact us</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="space-y-5">
+        <h3 className="font-semibold">Our Products</h3>
+        <ul className="space-y-3">
+          <li>
+            <Link to="/products/mild-steel">Mild steel</Link>
+          </li>
+          <li>
+            <Link to="/products/stainless-steel">Stainless steel</Link>
+          </li>
+          <li>
+            <Link to="/products/galvanized-steel">Galvanised material</Link>
+          </li>
+          <li>
+            <Link to="/products/fabrication-and-installation">
+              Welding and consumables
+            </Link>
+          </li>
+          <li>
+            <Link to="/products/mesh-wire">Mesh wire</Link>
+          </li>
+          <li>
+            <Link to="/products/fittings-and-accessories">
+              Fittings and accessories
+            </Link>
+          </li>
+          <li>
+            <Link to="/products/form-works">
+              Acrow props and Formwork material
+            </Link>
           </li>
         </ul>
       </div>

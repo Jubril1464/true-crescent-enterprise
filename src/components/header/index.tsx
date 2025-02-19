@@ -4,7 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 import { LuChevronDown } from "react-icons/lu";
 import { CiSearch, CiShoppingCart, CiUser } from "react-icons/ci";
 import Logo from '@assets/images/true-cresent-logo.png'
-import { FiUser } from "react-icons/fi";
 export const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [checked, setChecked] = useState(false);
@@ -97,7 +96,7 @@ export const Header = () => {
                     to="/products/form-works"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                    Formwork Materials
+                   Acrow props and Formwork Materials
                   </Link>
                 </li>
               </ul>

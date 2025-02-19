@@ -16,6 +16,12 @@ import UniversalColumns from "@assets/images/mild-steel/universal-columns.jpg";
 
 import GalvanisedMaterialThree from '@assets/images/galvanised-and-scafolding/stainless-pipe-5.jpg'
 import GalvanisedMaterialFour from '@assets/images/galvanised-and-scafolding/stainless-pipe-8.jpg'
+import GalvanisedMaterialFive from '@assets/images/galvanised-and-scafolding/galvanised-pipe-1.jpg'
+import GalvanisedMaterialSix from '@assets/images/galvanised-and-scafolding/galvanised-pipe-2.jpg'
+import GalvanisedMaterialSeven from '@assets/images/galvanised-and-scafolding/galvanised-pipe-3.jpg'
+import GalvanisedMaterialEight from '@assets/images/galvanised-and-scafolding/galvanised-pipe-4.jpg'
+import GalvanisedMaterialNine from '@assets/images/galvanised-and-scafolding/galvanised-pipe-5.jpg'
+import GalvanisedMaterialTen from '@assets/images/galvanised-and-scafolding/galvanised-pipe-6.jpg'
 
 import StainlessSteelOne from '@assets/images/stainless-steel-and-material/stainless-pipe-1.jpg'
 import StainlessSteelTwo from '@assets/images/stainless-steel-and-material/stainless-pipe-2.jpg'
@@ -49,6 +55,15 @@ import FittingsAndAccessoriesEight from '@assets/images/seamless-pipe-and-access
 import FormWorkOne from '@assets/images/form-work/wood-3.jpg'
 import FormWorkTwo from '@assets/images/form-work/wood-4.jpg'
 import FormWorkThree from '@assets/images/form-work/yellow-beam-1.jpg'
+import FromWorkFour from '@assets/images/form-work/acrow-form-work-1.jpg'
+import FromWorkFive from '@assets/images/form-work/acrow-form-work-2.jpg'
+import FromWorkSix from '@assets/images/form-work/acrow-form-work-3.jpg'
+import FromWorkSeven from '@assets/images/form-work/acrow-form-work-4.jpg'
+import FromWorkEight from '@assets/images/form-work/acrow-form-work-5.jpg'
+import FromWorkNine from '@assets/images/form-work/acrow-form-work-6.jpg'
+import FromWorkTen from '@assets/images/form-work/acrow-form-work-7.jpg'
+import FromWorkEleven from '@assets/images/form-work/acrow-form-work-8.jpg'
+import FromWorkTwelve from '@assets/images/form-work/acrow-form-work-9.jpg'
 
 import HcolumOne from '@assets/images/mild-steel-new/h-column/h-column-1.jpg'
 import HcolumTwo from '@assets/images/mild-steel-new/h-column/h-column-2.jpg'
@@ -257,16 +272,36 @@ export const stainlessSteelProducts = [
 ];
 
 export const galvanizedSteelProducts = [
- 
+  {
+    name: "Galvanized Pipe",
+    image: GalvanisedMaterialSix,
+    id: 1,
+  },
+  {
+    name: "Galvanized Pipe",
+    image: GalvanisedMaterialSeven,
+    id: 2,
+  },
   {
     name: "Galvanized Pipe",
     image: GalvanisedMaterialThree,
     id: 3,
   },
+
   {
     name: "Galvanized Pipe",
     image: GalvanisedMaterialFour,
     id: 4,
+  },
+  {
+    name: "Galvanized Pipe",
+    image: GalvanisedMaterialFive,
+    id: 5,
+  },
+  {
+    name: "Galvanized Pipe",
+    image: GalvanisedMaterialEight,
+    id: 8,
   },
 ];
 
@@ -314,45 +349,31 @@ export const fabricationProductServices: CardSteelsProps[] = [
 ];
 export const fittingsProductServices: CardSteelsProps[] = [
   {
-    name: "Fittings",
+    name: "Elbows",
     image: FittingsAndAccessoriesOne,
     id: 1,
   },
   {
-    name: "Fittings",
+    name: "Flanges",
     image: FittingsAndAccessoriesTwo,
     id: 2,
   },
   {
-    name: "Fittings",
+    name: "Equal Tee",
     image: FittingsAndAccessoriesThree,
     id: 3,
   },
   {
-    name: "Fittings",
+    name: "Elbow tee",
     image: FittingsAndAccessoriesFour,
     id: 4,
   },
   {
-    name: "Fittings",
+    name: "Reducers",
     image: FittingsAndAccessoriesFive,
     id: 5,
   },
-  {
-    name: "Acrow Props",
-    image: FittingsAndAccessoriesSix,
-    id: 6,
-  },
-  {
-    name: "Acrow Props",
-    image: FittingsAndAccessoriesSeven,
-    id: 7,
-  },
-  {
-    name: "Acrow Props",
-    image: FittingsAndAccessoriesEight,
-    id: 8,
-  },
+  
   
 ];
 export const formWorkProductServices: CardSteelsProps[] = [
@@ -370,6 +391,51 @@ export const formWorkProductServices: CardSteelsProps[] = [
     name: "Yellow Beam",
     image: FormWorkThree,
     id: 3,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkFour,
+    id: 4,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkFive,
+    id: 5,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkSix,
+    id: 6,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkSeven,
+    id: 7,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkEight,
+    id: 8,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkNine,
+    id: 9,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkTen,
+    id: 10,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkEleven,
+    id: 11,
+  },
+  {
+    name: "Acrow Props",
+    image: FromWorkTwelve,
+    id: 12,
   },
   
 ];
