@@ -13,12 +13,12 @@ export const Header = () => {
       <div className="bg-black flex justify-between items-center py-2 px-5 text-white">
         <div className="flex items-center gap-3 sm:text-base text-xs">
           <LuPhone />
-          <p>Call now: +234 8120000089</p>
+          <p>Call now: +2348021491086</p>
         </div>
-        <div className="flex items-center gap-5 sm:text-base text-sm">
+        {/* <div className="flex items-center gap-5 sm:text-base text-sm">
           <Link to="/auth/register">Register</Link>
           <Link to="/auth/login">Login</Link>
-        </div>
+        </div> */}
       </div>
       <nav className="flex justify-between py-4 px-5 items-center relative">
         <Link to="/" className="font-semibold min-[400px]:text-2xl text-xl">
@@ -96,7 +96,7 @@ export const Header = () => {
                     to="/products/form-works"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                   Acrow props and Formwork Materials
+                    Acrow props and Formwork Materials
                   </Link>
                 </li>
               </ul>

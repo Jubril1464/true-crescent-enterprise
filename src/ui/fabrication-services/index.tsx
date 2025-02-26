@@ -2,8 +2,10 @@ import Button from "@src/components/button";
 import { Card } from "@src/components/card";
 import { CardSteelsProps } from "@src/model/interface";
 import { fabricationServices } from "@src/utils/data";
+import { useNavigate } from "react-router-dom";
 
 const FabricationServices = () => {
+  const navigate = useNavigate()
   return (
     <section className="px-5 my-20">
       <div className="flex flex-col gap-3 items-center my-10 ">
@@ -25,7 +27,16 @@ const FabricationServices = () => {
             <h3 className="font-semibold text-lg">{product.name}</h3>
             <div className="flex justify-between min-[330px]:flex-row flex-col min-[330px]:gap-0 gap-3">
               <Button>Add to cart</Button>
-              <Button variant="outline">View details</Button>
+              <Button
+                variant="outline"
+                onClick={() =>
+                  navigate(
+                    `/products/fabrication-and-installation/${product.id}`
+                  )
+                }
+              >
+                View details
+              </Button>
             </div>
           </Card>
         ))}

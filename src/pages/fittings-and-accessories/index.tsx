@@ -4,11 +4,13 @@ import { Card } from "@src/components/card";
 import { Layout } from "@src/components/page-layout";
 import { CardSteelsProps } from "@src/model/interface";
 import { fabricationProductServices, fittingsProductServices } from "@src/utils/data";
+import { useNavigate } from "react-router-dom";
 
 const ITEMS_PER_PAGE = 8;
 
 const FittingsAndAccessories = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const navigate = useNavigate()
 
   const totalPages = Math.ceil(
     fittingsProductServices.length / ITEMS_PER_PAGE
@@ -45,7 +47,14 @@ const FittingsAndAccessories = () => {
             <h3 className="font-semibold text-lg">{product.name}</h3>
             <div className="flex justify-between min-[330px]:flex-row flex-col min-[330px]:gap-0 gap-3">
               <Button>Add to cart</Button>
-              <Button variant="outline">View details</Button>
+              <Button
+                variant="outline"
+                onClick={() =>
+                  navigate(`/products/fittings-and-accessories/${product.id}`)
+                }
+              >
+                View details
+              </Button>
             </div>
           </Card>
         ))}

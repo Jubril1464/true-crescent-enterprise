@@ -4,12 +4,13 @@ import { Card } from "@src/components/card";
 import { Layout } from "@src/components/page-layout";
 import { CardSteelsProps } from "@src/model/interface";
 import { galvanizedSteelProducts } from "@src/utils/data";
+import { useNavigate } from "react-router-dom";
 
 const ITEMS_PER_PAGE = 8; // Adjust this number as needed
 
 const GalvanizedSteel = () => {
   const [currentPage, setCurrentPage] = useState(1);
-
+  const navigate = useNavigate()
   const totalPages = Math.ceil(galvanizedSteelProducts.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
@@ -40,7 +41,14 @@ const GalvanizedSteel = () => {
             <h3 className="font-semibold text-lg">{product.name}</h3>
             <div className="flex justify-between min-[330px]:flex-row flex-col min-[330px]:gap-0 gap-3">
               <Button>Add to cart</Button>
-              <Button variant="outline">View details</Button>
+              <Button
+                variant="outline"
+                onClick={() =>
+                  navigate(`/products/galvanised-steels/${product.id}`)
+                }
+              >
+                View details
+              </Button>
             </div>
           </Card>
         ))}

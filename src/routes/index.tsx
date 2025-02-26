@@ -13,6 +13,12 @@ import MeshWireSteel from "@src/pages/mesh-wire-steel";
 import MarketSupplied from "@src/pages/market-supplied";
 import FittingsAndAccessories from "@src/pages/fittings-and-accessories";
 import FormWork from "@src/pages/form-work";
+import MildProductDetails from "@src/pages/mild-steel/product-details";
+import StainlessSteelProductDetails from "@src/pages/stainless-steel/stainless-product-details";
+import FittingsProductDetails from "@src/pages/fittings-and-accessories/fittings-product-details";
+import GalvanisedProductDetails from "@src/pages/galvanized-steels/galvanised-product-details";
+import MeshProductDetails from "@src/pages/mesh-wire-steel/mesh-product-details";
+import FabricationProductDetails from "@src/pages/fabrication-and-installation/fabrication-product-details";
 
 export const appRoutes = [
   {
@@ -41,7 +47,7 @@ export const appRoutes = [
   },
   {
     path: "/products/fabrication-and-installation",
-    element: <FabricationAndInstallion/>,
+    element: <FabricationAndInstallion />,
   },
   {
     path: "/products/mesh-wire",
@@ -63,6 +69,27 @@ export const appRoutes = [
   {
     path: "/our-company",
     element: <OurCompany />,
+  },
+  { path: "/products/mild-steel/:id", element: <MildProductDetails /> },
+  {
+    path: "/products/stainless-steel/:id",
+    element: <StainlessSteelProductDetails />,
+  },
+  {
+    path: "/products/fittings-and-accessories/:id",
+    element: <FittingsProductDetails />,
+  },
+  {
+    path: "/products/galvanised-steels/:id",
+    element: <GalvanisedProductDetails />,
+  },
+  {
+    path: "/products/mesh-wire/:id",
+    element: <MeshProductDetails />,
+  },
+  {
+    path: "/products/fabrication-and-installation/:id",
+    element: <FabricationProductDetails />,
   },
   {
     path: "*",
