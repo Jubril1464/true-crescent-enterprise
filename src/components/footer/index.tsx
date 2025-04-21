@@ -27,7 +27,7 @@ const Footer = () => {
           <p>contact@truecrescent.com</p>
         </div>
         <div>
-          <p>+2348021491086</p>
+          <p>+2348160804480</p>
         </div>
       </div>
       <div className="space-y-5">

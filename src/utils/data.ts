@@ -122,25 +122,21 @@ export const stainlesssteels: CardSteelsProps[] = [
 ];
 export const fabricationServices: CardSteelsProps[] = [
   {
-    name: "Security Fencing and Guards",
+    name: "GRP TANK / Galavanized Star Tank",
     image: WeldingAndCosumablesOne,
     id: 1,
   },
   {
-    name: "Welding",
+    name: "Scaffolding",
     image: WeldingAndCosumablesTwo,
     id: 2,
   },
-  {
-    name: "Welding",
-    image: WeldingAndCosumablesThree,
-    id: 3,
-  },
+  
 ];
 
 export const metalmesh: ProductDetails[] = [
   {
-    name: "Barbed Wire ",
+    name: "Panel Mesh / Fencing Wire",
     image: MeshOne,
     id: 1,
     details: {
@@ -149,7 +145,7 @@ export const metalmesh: ProductDetails[] = [
     },
   },
   {
-    name: "Grating Mesh Wire",
+    name: "Chain Link",
     image: MeshTwo,
     id: 2,
     details: {
@@ -162,7 +158,7 @@ export const metalmesh: ProductDetails[] = [
     },
   },
   {
-    name: "Grating Mesh Wire",
+    name: "Panel Mesh / Fencing Wire",
     image: MeshThree,
     id: 3,
     details: {
@@ -175,7 +171,7 @@ export const metalmesh: ProductDetails[] = [
     },
   },
   {
-    name: "Grating Mesh Wire",
+    name: "Panel Mesh / Fencing Wire ",
     image: MeshFour,
     id: 4,
     details: {

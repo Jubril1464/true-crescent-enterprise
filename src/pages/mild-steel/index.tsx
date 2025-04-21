@@ -33,7 +33,7 @@ const MildSteel = () => {
       </div>
       <div className="grid min-[1300px]:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10 sm:px-10 px-5 mt-10 ">
         {currentProducts.map((product: CardSteelsProps) => (
-          <Card key={product.id} padding="sm">
+          <Card key={product.id} padding="sm" >
             <img
               src={product.image}
               alt={product.name}

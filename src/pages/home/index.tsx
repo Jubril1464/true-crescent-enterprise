@@ -13,7 +13,7 @@ const Home = () => {
           Your Best Steel Merchant and Partner
         </h1>
         <p className="min-[850px]:w-[50rem]">
-          Since 1992, providing high-quality steel materials, fabrication
+          Providing high-quality steel materials, fabrication
           services, and maintenance solutions.
         </p>
         <div>

@@ -8,7 +8,7 @@ const StainlessSteels = () => {
   const navigate = useNavigate();
   return (
     <section className="px-5 my-20">
-      <div className="flex flex-col gap-3 items-center my-10 ">
+      <div className="flex flex-col gap-3 items-center my-10 text-center">
         <h2 className="font-semibold sm:text-4xl text-2xl">
           Stainless Steel Products
         </h2>

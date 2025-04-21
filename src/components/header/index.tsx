@@ -13,7 +13,7 @@ export const Header = () => {
       <div className="bg-black flex justify-between items-center py-2 px-5 text-white">
         <div className="flex items-center gap-3 sm:text-base text-xs">
           <LuPhone />
-          <p>Call now: +2348021491086</p>
+          <p>Call now: +2348160804480</p>
         </div>
         {/* <div className="flex items-center gap-5 sm:text-base text-sm">
           <Link to="/auth/register">Register</Link>
@@ -22,7 +22,7 @@ export const Header = () => {
       </div>
       <nav className="flex justify-between py-4 px-5 items-center relative">
         <Link to="/" className="font-semibold min-[400px]:text-2xl text-xl">
-          <img src={Logo} alt="True crescent logo" className="h-8 w-[130px]" />
+          <img src={Logo} alt="True crescent logo" className="sm:h-8 h-5 sm:w-[130px] w-[70px]" />
         </Link>
         <ul
           className={`flex gap-5 duration-100 transform min-[850px]:translate-y-0 -translate-y-96 ${

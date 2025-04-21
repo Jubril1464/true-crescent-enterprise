@@ -3,13 +3,12 @@ import { Layout } from "@components/page-layout";
 const OurCompany = () => {
   return (
     <Layout>
-      <div className="h-[30rem] flex flex-col items-center justify-center services text-center text-white">
+      <div className="h-[30rem] flex flex-col items-center justify-center services text-center text-white px-5">
         <h1 className="font-semibold min-[850px]:text-[4rem] sm:text-[3rem] text-3xl min-[850px]:w-[50rem] sm:leading-[70px]">
           Our Company
         </h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
-          consequatur
+        Supplier of iron steel intergrations(Mild steel, Stainless Steel and Galvanized), Engineering and Mechanical Tools, Fabrication and Steel financing
         </p>
       </div>
       <article className="space-y-3 px-5 my-20">
